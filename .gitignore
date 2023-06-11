@@ -8,3 +8,4 @@
 .DS_Store
 /build
 /captures
+/gradle/wrapper/gradle-8.1.1-bin.zip
