@@ -32,7 +32,7 @@ android {
         minSdk = 10
         targetSdk = 28
 
-        versionCode = 10941
+        versionCode = 10942
         versionName = "@string/app_versionName"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -50,7 +50,8 @@ android {
     }
 
     buildFeatures {
-        buildConfig = true /* Enable generate BuildConfig */
+        /* Generate BuildConfig classes */
+        buildConfig = true
     }
 
     compileOptions {
