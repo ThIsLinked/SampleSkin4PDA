@@ -1,4 +1,4 @@
-package ru.fourpda.skins.sample;
+package ru.fourpda.skins;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
