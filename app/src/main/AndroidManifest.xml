@@ -9,6 +9,7 @@
         <receiver
             android:name="ru.fourpda.skins.BindReceiver"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="ru.fourpda.skin" />
             </intent-filter>
