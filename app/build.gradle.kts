@@ -69,7 +69,7 @@ android {
     }
 
     buildToolsVersion = "34.0.0"
-    ndkVersion = "26.0.10792818"
+    ndkVersion = "26.1.10909125"
 }
 
 dependencies {
