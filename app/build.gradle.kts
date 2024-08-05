@@ -25,11 +25,12 @@ plugins {
 
 android {
     namespace = "ru.fourpda.skins.sample"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ru.fourpda.skins.sample"
         minSdk = 10
+        //noinspection ExpiredTargetSdkVersion
         targetSdk = 28
 
         versionCode = 10942
@@ -68,8 +69,8 @@ android {
         jniLibs.useLegacyPackaging = false
     }
 
-    buildToolsVersion = "34.0.0"
-    ndkVersion = "26.1.10909125"
+    buildToolsVersion = "35.0.0"
+    ndkVersion = "27.0.12077973"
 }
 
 dependencies {
