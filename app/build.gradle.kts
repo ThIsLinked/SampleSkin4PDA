@@ -20,7 +20,8 @@
  */
 
 plugins {
-    id("com.android.application")
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.jetbrains.kotlin.android)
 }
 
 android {
@@ -71,9 +72,13 @@ android {
 
     buildToolsVersion = "35.0.0"
     ndkVersion = "27.0.12077973"
+
+    buildToolsVersion = "35.0.0"
+    ndkVersion = "27.0.12077973"
+
 }
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    testImplementation("junit:junit:4.13.2")
+    testImplementation(libs.junit)
 }

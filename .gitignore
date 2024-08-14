@@ -8,6 +8,7 @@ AuroraStore-master-*.zip
 .DS_Store
 .gradle
 .idea
+.kotlin
 
 *.class
 *.dex
